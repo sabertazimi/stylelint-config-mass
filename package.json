@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-config-mass",
+  "version": "1.0.0",
+  "description": "A stylelint config based on stylelint-config-sass-guidelines for mass.css",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabertazimi/stylelint-config-mass.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "stylelint-order",
+    "stylelint-scss",
+    "stylelint-config-sass-guidelines",
+    "css",
+    "scss",
+    "sass",
+    "guidelines"
+  ],
+  "author": "sabertazimi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sabertazimi/stylelint-config-mass/issues"
+  },
+  "homepage": "https://github.com/sabertazimi/stylelint-config-mass",
+  "dependencies": {
+    "stylelint": "^9.4.0",
+    "stylelint-config-sass-guidelines": "^5.0.0"
+  }
+}

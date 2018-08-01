@@ -1,47 +1,6 @@
-# stylelint-config-mass
-
-A stylelint config based on `stylelint-config-sass-guidelines` for mass.css
-
-## Installation
-
-```bash
-npm install -D stylelint-config-mass
-```
-
-## Usage
-
-set `.stylelintrc.json` to:
-
-```json
-{
-  "extends": "stylelint-config-mass"
-}
-```
-
-### Extending the config
-
-Simply add a "rules" key to your config and add your overrides there.
-
-For example, to change the indentation to tabs and turn off the number-leading-zero rule:
-
-```json
-{
-  "extends": "stylelint-config-mass",
+module.exports = {
+  "extends": ["stylelint-config-sass-guidelines"],
   "rules": {
-    "indentation": "tab",
-    "number-leading-zero": null
-  }
-}
-```
-
-## Highlight
-
-disable `order/properties-alphabetical-order` in `stylelint-config-sass-guidelines`, use meaningful order
-
-```json
-{
-  "rules": {
-    // ...
     "order/properties-order": [
       "position",
       "z-index",
@@ -118,11 +77,6 @@ disable `order/properties-alphabetical-order` in `stylelint-config-sass-guidelin
       "content",
       "quotes"
     ],
-    // ...
+    "order/properties-alphabetical-order": null
   }
-}
-```
-
-## Reference
-
-- [stylelint-config-sass-guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines)
+};
