@@ -125,4 +125,5 @@ disable `order/properties-alphabetical-order` in `stylelint-config-sass-guidelin
 
 ## Reference
 
-- [stylelint-config-sass-guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines)
+- [Sass Guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines)
+- [CSS Concentric Order](https://github.com/chaucerbao/stylelint-config-concentric-order)
