@@ -191,6 +191,12 @@ module.exports = {
       'pointer-events',
       'will-change'
     ],
-    'order/properties-alphabetical-order': null
+    'order/properties-alphabetical-order': null,
+    "selector-class-pattern": [
+      "^[a-z0-9\\-\\_]+$",
+      {
+        "message": "Selector should be written in lowercase with hyphens (selector-class-pattern)"
+      }
+    ]
   }
 };
