@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/sabertazimi/stylelint-config-mass",
   "dependencies": {
-    "stylelint": "^9.4.0",
-    "stylelint-config-sass-guidelines": "^5.0.0"
+    "stylelint": "^9.10.1",
+    "stylelint-config-sass-guidelines": "^5.3.0"
   }
 }
